@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-custom{
+    background-color: #eaf6f6;
+    background-image: url("../images/cloud.png");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 10%;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+
+.logo{
+
+    font-family: Sacramento, cursive;
+    font-size: 60px;
+
+}
+
+
+.image-logo{
+    width: 75px;
+}
+
+
+hr{
+    border: dotted #030505 6px;
+    border-bottom: none;
+    width: 50px;
+    margin: auto;
+    background-color: #EAF6F6;
+    opacity: none;
+    padding: 100px none;
+    
+}
+.tool-bar{
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 45px 10% 25px 0;
+    text-align: right;
+}
+
+.toolbar-link{
+    color: #11999E;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.toolbar-link:hover{
+    color: red;
+}
+
+.fname{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 5.9375rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+.sub-title{
+    color: #66BFBF;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    margin: 0%;
+}
+
+.dgspan{
+    color: rgba(255, 0, 0, 0.721);
+}
+
+h2{
+    color: #11999E;
+}
+
+
+p{
+    line-height: 2;
+}
+
+.title-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 10px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+    max-width: 10%;
+}
+
+.mountain{
+
+    max-width: 100%;
+
+}
+
+.about-container{
+    margin: 35px 0 35px 0;
+    padding: 20px 0 20px 0;
+}
+
+
+.skill-row{
+    margin: 50px auto 75px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.dp{
+    height: 200px;
+    width: 200px;
+}
+
+.skills-container{
+    margin: 35px 0 35px 0;
+    padding: 20px 0 20px 0;
+}
+
+.sap-image
+{
+    float: left;
+    height: 25%;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.web-image
+{
+    float: right;
+    margin-left: 30px;
+    height: 25%;
+    width: 25%;
+}
+
+
+.contact-container{
+    margin: 35px 0 35px 0;
+    padding: 20px 0 20px 0;
+}
+
+
+.git{
+    font-size: 75px;
+}
+
+.footer-container{
+    background-color: #66bfbf;
+    height: 75px;
+    box-sizing: content-box;
+    padding-top: 25px;
+}
+
+.social{
+    color: #11999E;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.social:hover{
+    color: #008080;
+}
+
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #66BFBF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #008080;
+    text-decoration: none;
+  }
+
+  .footer-name{
+    color: red;
+  }
+
+
+
+
+  /** resume page styling **/
+
+  .resume-body{
+    background-color: #EAF6F6;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+.resume-title{
+    text-align: left;
+}
